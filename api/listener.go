@@ -2,9 +2,9 @@ package api
 
 import (
 	"context"
-	"matching-engine/pubsub"
 	"os"
 
+	"github.com/aisalamdag23/simple-websocket-app/pubsub"
 	redis "github.com/go-redis/redis/v8"
 	log "github.com/sirupsen/logrus"
 )
